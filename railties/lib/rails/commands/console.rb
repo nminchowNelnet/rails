@@ -62,7 +62,8 @@ module Rails
       if defined?(console::ExtendCommandBundle)
         console::ExtendCommandBundle.include(Rails::ConsoleMethods)
       end
-      console.start
+      puts 'skipping console'
+      # console.start
     end
   end
 end
