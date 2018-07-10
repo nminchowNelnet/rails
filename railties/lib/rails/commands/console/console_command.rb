@@ -61,7 +61,7 @@ module Rails
       if defined?(console::ExtendCommandBundle)
         console::ExtendCommandBundle.include(Rails::ConsoleMethods)
       end
-      console.start
+      # console.start
     end
   end
 
